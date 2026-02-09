@@ -1,0 +1,25 @@
+# Core dependencies for Research Assistant
+
+# Deep Learning Framework
+torch>=2.0.0
+
+# Transformers and Language Models
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+accelerate>=0.20.0
+
+# 4-bit Quantization
+bitsandbytes>=0.41.0
+
+# Vector Search
+faiss-cpu>=1.7.4
+# For GPU support, use: faiss-gpu>=1.7.4
+
+# API Requests
+requests>=2.31.0
+
+# Data Processing
+numpy>=1.24.0
+
+# Optional: Progress bars
+tqdm>=4.65.0
